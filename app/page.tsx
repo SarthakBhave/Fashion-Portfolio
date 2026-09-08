@@ -6,7 +6,6 @@ import { Hero } from "@/components/sections/hero";
 import { ProofMap } from "@/components/sections/proof-map";
 import { Research } from "@/components/sections/research";
 import { Studies } from "@/components/sections/studies";
-import { Transparency } from "@/components/sections/transparency";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <FeaturedWork />
       <Studies />
       <Research />
-      <Transparency />
       <Contact />
     </main>
   );

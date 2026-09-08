@@ -53,14 +53,10 @@ export function Hero() {
         </aside>
       </section>
       <section className="manifesto-strip" aria-label="Professional positioning">
-        {hero.manifesto.flatMap((item, index) =>
-          index === 0
-            ? [<span key={item}>{item}</span>]
-            : [
-                <i key={`${item}-arrow`}>→</i>,
-                <span key={item}>{item}</span>,
-              ],
-        )}
+        <div className="manifesto-track">
+          <span>{hero.manifesto}</span>
+          <span aria-hidden="true">{hero.manifesto}</span>
+        </div>
       </section>
       <section className="quick-profile" aria-label="Portfolio overview">
         {quickProfile.map((item) => (

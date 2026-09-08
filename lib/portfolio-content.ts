@@ -1,6 +1,6 @@
 export const site = {
   name: "Drashti Patel",
-  title: "Drashti Patel — Fashion Marketing & Brand Strategy",
+  title: "Drashti Patel, Fashion Marketing & Brand Strategy",
   description:
     "Fashion marketing and brand strategy portfolio featuring campaigns, consumer insight, cultural storytelling and fashion-business research.",
   location: "Berlin, Germany",
@@ -19,7 +19,7 @@ export const hero = {
   headlineBefore: "I engineer the logic behind ",
   headlineEm: "fashion desire.",
   intro:
-    "I translate consumer behaviour and cultural signals into brand systems, campaigns and reasons to belong—combining structured thinking with a strong visual point of view.",
+    "I translate consumer behaviour and cultural signals into brand systems, campaigns and reasons to belong, combining structured thinking with a strong visual point of view.",
   actions: [
     { href: "#about", label: "Start with my profile", arrow: "↘", quiet: false },
     { href: "#proof-map", label: "Choose the proof you need", arrow: "→", quiet: true },
@@ -31,7 +31,8 @@ export const hero = {
     captionRight: "Structure × instinct",
   },
   axis: ["Engineering", "Design", "Fashion business"] as const,
-  manifesto: ["Signal", "Meaning", "Decision", "Expression", "Measure"] as const,
+  manifesto:
+    "Aspiring Brand & Marketing Strategist  |  Design + Business Background  |  Fashion, Lifestyle & E-commerce",
 };
 
 export const quickProfile = [
@@ -48,7 +49,7 @@ export const about = {
   lead: "My path began in computer engineering. The work that shaped my direction, however, was always about people, perception and visual communication.",
   paragraphs: [
     "During my bachelor's in Computer Engineering at SVIT, Vasad, I built hands-on experience in graphic design, packaging and UX through PRAKARSH, B&B Systems and Collabera. That experience taught me how visual decisions influence attention, usability and brand perception.",
-    "I am now pursuing an MSc in International Business Management in Germany, bringing that design foundation together with consumer insight, marketing and commercial strategy for the fashion industry. I am most interested in the point where research becomes a clear brand decision—and that decision becomes a campaign people can recognise, feel and act on.",
+    "I am now pursuing an MSc in International Business Management in Germany, bringing that design foundation together with consumer insight, marketing and commercial strategy for the fashion industry. I am most interested in the point where research becomes a clear brand decision, and that decision becomes a campaign people can recognise, feel and act on.",
   ],
   facts: [
     {
@@ -66,7 +67,7 @@ export const about = {
   ],
   journeyHeading: "How the pieces connect",
   journeyCopy:
-    "A concise career story for recruiters—not a list of unrelated experiences.",
+    "A concise career story for recruiters, not a list of unrelated experiences.",
   journey: [
     {
       label: "01 / Education",
@@ -181,7 +182,7 @@ export const featured = {
         "How can an unknown fashion label feel distinctive, coherent and desirable before it has recognition or a paid-media budget?",
       visual: "solene" as const,
       insight:
-        "In fashion, weak identity creates interchangeability. The response was a decision system—not simply a new logo—built around one strategic axis: quietly powerful.",
+        "In fashion, weak identity creates interchangeability. The response was a decision system, not simply a new logo, built around one strategic axis: quietly powerful.",
       execution:
         "Positioning, naming logic, an eight-tone identity, Instagram architecture, a four-week launch campaign and a zero-budget growth test plan.",
       measure:
@@ -209,7 +210,7 @@ export const featured = {
       title: "After Dark",
       subtitle: "From collection to campaign for VANTA",
       statement:
-        "How can an Autumn/Winter collection become a reason to belong—not just another sequence of product posts?",
+        "How can an Autumn/Winter collection become a reason to belong, not just another sequence of product posts?",
       visual: "vanta" as const,
       insight:
         "The audience tension became the campaign mechanism: dress for the version of yourself you are stepping into. Dusk, thresholds and movement made that transition visible.",
@@ -267,7 +268,7 @@ export const studies = {
       visual: "consumer" as const,
       label: "Consumer insight",
       title: "Who Is the Next Luxury Consumer?",
-      copy: "A secondary-research study that reframes the next luxury consumer as an identity-led value auditor—and turns three insights into actions for emerging brands.",
+      copy: "A secondary-research study that reframes the next luxury consumer as an identity-led value auditor, and turns three insights into actions for emerging brands.",
       file: "Open complete study · 13 pages",
       href: "/work/next-luxury-consumer-study.pdf",
       skills: "Research synthesis · Fashion business · Strategic recommendation",
@@ -321,20 +322,12 @@ export const research = {
   ],
 };
 
-export const transparency = {
-  eyebrow: "06 / Project transparency",
-  heading: "Clear about what is real, researched and conceptual.",
-  copy: "Most fashion case studies in this portfolio are self-initiated. Fictional brands, secondary research and AI-assisted visualisation are identified inside the relevant project. Strategy, synthesis, art direction, copy and presentation development are credited to Drashti Patel.",
-};
-
 export const contact = {
-  eyebrow: "07 / Contact · Selected work 2025–2026",
+  eyebrow: "07 / Contact",
   heading: "Available for fashion marketing, brand and content opportunities in Berlin.",
-  facts: [
-    { label: "Name", value: "Drashti Patel" },
-    { label: "Location", value: "Berlin, Germany" },
-    { label: "Evidence", value: "Complete project PDFs available above" },
-    { label: "Next addition", value: "Professional email · LinkedIn · CV" },
-  ],
-  footer: ["Fashion Marketing & Brand Strategy", "Portfolio sample for final review"] as const,
+  linkedin: "https://www.linkedin.com/in/pateldrashti04/",
+  email: "datuwork@gmail.com",
+  cvHref: "/cv.pdf",
+  cvLabel: "Download my CV",
+  footer: ["© 2026 Drashti Patel. All rights reserved.", "MEDIA KIT, 2026"] as const,
 };
