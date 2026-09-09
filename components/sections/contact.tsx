@@ -1,5 +1,5 @@
-import { Mail } from "lucide-react";
 import { contact } from "@/lib/portfolio-content";
+import { EmailAction } from "@/components/email-action";
 
 function LinkedInIcon() {
   return (
@@ -31,16 +31,7 @@ export function Contact() {
         >
           <LinkedInIcon />
         </a>
-        <a
-          className="contact-icon"
-          href={`mailto:${contact.email}`}
-          aria-label="Email"
-        >
-          <Mail size={22} strokeWidth={1.6} />
-        </a>
-        <a className="contact-cv" href={contact.cvHref} download>
-          {contact.cvLabel}
-        </a>
+        <EmailAction />
       </div>
       <div className="footer-line">
         <span className="copyright">{contact.footer[0]}</span>

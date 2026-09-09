@@ -27,13 +27,6 @@ export function ProofMap() {
           </a>
         ))}
       </div>
-      <div className="proof-footer">
-        <span>{proofMap.footer[0]}</span>
-        <i>×</i>
-        <span>{proofMap.footer[1]}</span>
-        <i>×</i>
-        <span>{proofMap.footer[2]}</span>
-      </div>
     </section>
   );
 }

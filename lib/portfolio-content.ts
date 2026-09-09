@@ -43,8 +43,8 @@ export const quickProfile = [
 ] as const;
 
 export const about = {
-  eyebrow: "01 / Professional profile",
-  heading: "Design discipline. Business logic. Fashion point of view.",
+  eyebrow: "Professional profile",
+  heading: "I combine fashion marketing, brand strategy and visual communication.",
   signature: ["DESIGN", "BUSINESS", "FASHION"] as const,
   lead: "My path began in computer engineering. The work that shaped my direction, however, was always about people, perception and visual communication.",
   paragraphs: [
@@ -125,7 +125,7 @@ export const about = {
 };
 
 export const proofMap = {
-  eyebrow: "02 / Recruiter proof map",
+  eyebrow: "Recruiter proof map",
   heading: "Don't browse everything. Choose what you need to prove.",
   copy: "This portfolio works like a strategic fitting room: select the capability relevant to the role, then go directly to the strongest evidence.",
   routes: [
@@ -162,11 +162,10 @@ export const proofMap = {
       open: "Open luxury research",
     },
   ],
-  footer: ["One profile", "Four recruiter routes", "Evidence in one click"] as const,
 };
 
 export const featured = {
-  eyebrow: "03 / Featured case studies",
+  eyebrow: "Featured case studies",
   heading: "Strategy made visible.",
   copy: "Selected projects showing how I move from a fashion-business question to a coherent creative and commercial response.",
   note: "Each project has a custom visual system here. Open the PDF for the complete process and evidence.",
@@ -259,7 +258,7 @@ export const featured = {
 };
 
 export const studies = {
-  eyebrow: "04 / Selected strategic studies",
+  eyebrow: "Selected strategic studies",
   heading: "Focused questions. Useful answers.",
   items: [
     {
@@ -299,7 +298,7 @@ export const studies = {
 };
 
 export const research = {
-  eyebrow: "05 / Current research",
+  eyebrow: "Current research",
   heading: "Work in progress, with a clear point of view.",
   copy: "These projects will move into Featured Work when the research, execution and recommendations are complete.",
   items: [
@@ -323,11 +322,9 @@ export const research = {
 };
 
 export const contact = {
-  eyebrow: "07 / Contact",
+  eyebrow: "Contact",
   heading: "Available for fashion marketing, brand and content opportunities in Berlin.",
   linkedin: "https://www.linkedin.com/in/pateldrashti04/",
   email: "datuwork@gmail.com",
-  cvHref: "/cv.pdf",
-  cvLabel: "Download my CV",
   footer: ["© 2026 Drashti Patel. All rights reserved.", "MEDIA KIT, 2026"] as const,
 };
